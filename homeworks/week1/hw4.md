@@ -9,11 +9,11 @@ Git，目的是用來進行版本控制，利用 CLI 的操作介面來執行，
 |git status|檢視暫存區的狀態||
 |git log|檢視儲存區的狀態||
 ||以7碼亂碼檢視儲存區的狀態|git log - - oneline|
-|git merge|將分支合併到主線中|git merge <branch name>|
-||將分支合併到另一分支中|git <branch name> merge <branch name>|
+|git merge|將分支合併到主線中|git merge **branch name**|
+||將分支合併到另一分支中|git **branch name** merge **branch name**|
 |git diff|檢視目前和上一次 commit 內容的差異||
-|git push|上傳儲存區的檔案|git push origin <branch name>|
-|git pull|下載 Github repo 內的檔案|git pull origin <branch name>|
+|git push|上傳儲存區的檔案|git push origin **branch name** |
+|git pull|下載 Github repo 內的檔案|git pull origin **branch name**|
 |git clone|複製 repo 的檔案並下載到本地端|git clone 網址|
 |git init|開始進行版本管控|在資料夾內使用|
 |git branch|開一個新的分支||
