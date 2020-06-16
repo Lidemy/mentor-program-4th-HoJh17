@@ -8,10 +8,9 @@
 # 顯示 show.txt 
 #
 ###
-
-curl https://api.github.com/users/$1 | grep '"name"'  > show.txt
-curl https://api.github.com/users/$1 | grep '"bio"' >> show.txt
-curl https://api.github.com/users/$1 | grep '"location"' >> show.txt
-curl https://api.github.com/users/$1 | grep '"blog"' >> show.txt
-clear
+curl https://api.github.com/users/$1 > user.txt
+grep '\<name\>' user.txt | cut -d '"' -f4 > show.txt
+grep '\<bio\>' user.txt | cut -d '"' -f4 >> show.txt
+grep '\<location\>' user.txt | cut -d '"' -f4 >> show.txt
+grep '\<blog\>' user.txt | cut -d '"' -f4 >> show.txt
 cat show.txt

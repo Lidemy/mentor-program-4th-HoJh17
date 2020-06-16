@@ -5,7 +5,7 @@
 
 ## 假設我今天去 Google 首頁搜尋框打上：JavaScript 並且按下 Enter，請說出從這一刻開始到我看到搜尋結果為止發生在背後的事情。
 
-當使用者在 Google 上打入 JavaScript 並且按下 Enter 後，Google Server 接收到我的 request 後，會到 DataBase 尋找相關檔案，紀錄並且回傳，Server 接收到 DataBase 回傳的檔案並且處理後，就會給我一個 response，把畫面傳回來，顯示資訊給使用者看。
+當使用者在 Google 上打入 JavaScript 並且按下 Enter 後，Google Server 接收到我的 request 後，會到 DataBase 尋找相關檔案，紀錄並且回傳，瀏覽器接收到 response 資料，然後瀏覽器負責把畫面渲染出來給使用者看。
 
 ## 請列舉出 3 個「課程沒有提到」的 command line 指令並且說明功用
 
