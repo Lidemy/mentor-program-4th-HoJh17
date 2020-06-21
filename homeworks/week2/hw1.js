@@ -9,8 +9,9 @@ function printStars(n){
 */
 
 function printStars(n) {
-    for(var i =1 ; i<=n ; i++)
-    console.log('*')
+    for(var i =1 ; i<=n ; i++){
+        console.log('*')
+    }
   }
   
   

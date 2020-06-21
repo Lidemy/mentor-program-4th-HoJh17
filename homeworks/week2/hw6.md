@@ -44,13 +44,5 @@ for(var i=2; i<arr.length; i++) {
 2. 第一圈迴圈結束，跑回第一行，i++，i 變成 3，判斷 i 是否 < arr.length，是，進入迴圈
 判斷 arr[3] 是否不等於 arr[2] + arr[1] ，否
 3. 第二圈迴圈結束，跑回第一行，i++，i 變成 4，判斷 i 是否 < arr.length，是，進入迴圈
-判斷 arr[4] 是否不等於 arr[3] + arr[2] ，否
-4. 第三圈迴圈結束，跑回第一行，i++，i 變成 5，判斷 i 是否 < arr.length，是，進入迴圈
-判斷 arr[5] 是否不等於 arr[4] + arr[3] ，否
-5. 第四圈迴圈結束，跑回第一行，i++，i 變成 6，判斷 i 是否 < arr.length，否，離開迴圈
+判斷 arr[4] 是否不等於 arr[3] + arr[2] ，是，回傳 invalid ，函式結束
 
-### Step 3 
-```js
-return 'valid'
-```
-回傳 valid
