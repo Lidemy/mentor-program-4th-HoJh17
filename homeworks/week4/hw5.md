@@ -8,8 +8,8 @@ API(Application Programming Interface)，又稱為應用程式編譯介面，是
 為求完整性，我將課堂上的有提到的都列出來。藍色字體為對這題的回答。
 
 ### 資訊回應
-<font color = 'blue'>100 Continue
-此臨時回應表明，目前一切狀態良好，而用戶端應當繼續完成請求、或是在己完成請求的強況下，忽略此訊息</font> 
+:star:100 Continue
+此臨時回應表明，目前一切狀態良好，而用戶端應當繼續完成請求、或是在己完成請求的強況下，忽略此訊息。
 
 ### 成功回應
 200 OK
@@ -36,11 +36,11 @@ TRACE : Server 已接收 body 中內含的 response
 400 Bad Request
 此回應意味伺服器因為收到無效語法，而無法理解請求。
 
-<font color = 'blue'>401 Unauthorized
-需要授權以回應請求。</font> 
+:star:401 Unauthorized
+需要授權以回應請求。
 
-<font color = 'blue'>403 Forbidden
-用戶端並無訪問權限，例如未被授權，所以伺服器拒絕給予應有的回應。不同於 401，伺服端知道用戶端的身份。</font> 
+:star:403 Forbidden
+用戶端並無訪問權限，例如未被授權，所以伺服器拒絕給予應有的回應。不同於 401，伺服端知道用戶端的身份。
 
 404 Not Found
 伺服器找不到請求的資源。
