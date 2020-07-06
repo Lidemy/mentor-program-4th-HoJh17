@@ -5,7 +5,7 @@ API(Application Programming Interface)，又稱為應用程式編譯介面，是
 
 
 ## 請找出三個課程沒教的 HTTP status code 並簡單介紹
-為求完整性，我將課堂上的有提到的都列出來。藍色字體為對這題的回答。
+為求完整性，我將課堂上的有提到的都列出來。:star:為對這題的回答。
 
 ### 資訊回應
 :star:100 Continue
