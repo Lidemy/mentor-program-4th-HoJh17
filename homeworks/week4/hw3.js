@@ -11,7 +11,7 @@ request(
     } catch (e) {
       console.log(e);
     }
-    if (json.status === 404) {
+    if (json.status >= 400 && json.status < 500) {
       console.log('找不到國家資訊');
     } else {
       for (let i = 0; i < json.length; i += 1) {
